@@ -301,4 +301,18 @@ footer{
 </footer>
 
 </body>
+<body>
+
+<audio id="bg-music" src="bg-music.mp3" loop></audio>
+
+<script>
+  const music = document.getElementById("bg-music");
+  document.addEventListener("click", () => {
+    music.volume = 0.3; // sound low
+    music.play();
+  }, { once: true });
+</script>
+
+<!-- rest of your website -->
+
 </html>
