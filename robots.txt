@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-website-link.com/sitemap.xml
+Sitemap: https://https://information-jzi6.onrender.com/sitemap.xml
